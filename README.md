@@ -1,2 +1,2 @@
 # cardgame
-A deck of cards games written in Golang
+A deck of cards game written in Golang
