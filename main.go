@@ -10,10 +10,10 @@ func main() {
 	fmt.Println("dealed cards : ", before, " ", after)
 
 	after.shuffle()
-	after.saveToFile("data.txt")
+	after.saveToFile("card.txt")
 
 	after.print()
 
-	deckFromFile := newDeckFromFile("data.txt")
+	deckFromFile := newDeckFromFile("card.txt")
 	deckFromFile.print()
 }
